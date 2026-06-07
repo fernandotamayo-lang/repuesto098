@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 from groq import Groq
 
-load_dotenv(dotenv_path=".env", override=True)
+load_dotenv()
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
